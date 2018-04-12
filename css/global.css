@@ -1,0 +1,175 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box; 
+}
+
+body {
+	font-family: "Century Gothic", "Segoe UI";
+	
+}
+
+div#header {
+	width: 100%;
+	height: 50px;
+	background-color: #2c3e50;
+	margin: 0 auto;
+}
+
+a {
+	text-decoration: none; 
+}
+
+.logo {
+	float: left;
+	margin-top: 6px;
+	margin-left: 8px;
+}
+
+
+.logo a {
+	color: #fff;
+	font-size: 1.7em;
+	
+}
+
+.logo a span {
+	font-weight: bold;
+	font-synthesis: 40;
+}
+
+img {
+	height: 40px;
+	width: 40px;
+}
+
+.logo_img {
+	float: left;
+	padding: 5px;
+}
+
+div#container {
+	width: 100%;
+	margin: 0 auto;
+	background-image: url('../images/easter-teaser-bg.jpg');
+	background-repeat: repeat-x repeat-y;
+	background-position: center;
+	background-size: 1920px 1280px;
+	background-attachment: scroll;
+}
+
+.sidebar {
+	width: 250px;
+	height: 300px;
+	background-color: #21445b4d;
+	float: left;
+}
+
+ul#nav li {
+	list-style: none;
+}
+
+ul#nav li a {
+	color: #ccc;
+	display: block;
+	padding: 10px;
+	font-size: 1.0em;
+	border-bottom: 1px solid #0A0A0A;
+	-webkit-transition: 0.2s;
+	-moz-transition: 0.2s;
+	-o-transition: 0.2s;
+	transition: 0.2s;
+}
+
+ul#nav li a:hover {
+	background-color: #1a1f1e; 
+	color: #fff;
+	padding-left: 20px;
+}
+
+ul#nav li a.selected {
+	background-color: #1a1f1e;
+	color: #fff;
+	padding-left: 20px;
+}
+
+.content {
+	width: auto;
+	margin-left:  250px;
+	height: 100%;
+	
+	/*background-color: #95a5a6;*/
+	padding: 15px;
+}
+
+.content p {
+	color: #424242;
+	font-size: 0.7em;
+}
+
+div#box {
+	margin-top: 15px;
+}
+
+div#box .box-top {
+	color: #fff;
+	background-color: #8d34e2f0;
+	padding: 5px;
+	text-shadow: 0px 1px #000;
+	font-weight: 300;
+}
+
+div#box .box-body {
+	background-color: #fff;
+	padding: 15px;
+}
+
+div#contact {
+	width: 100%;
+	height: 250px;
+	background-color: #0D0D0D4D;
+}
+
+div#contact h1 {
+	margin-left: 20px;
+	padding-top: 25px;
+	color: white;
+}
+
+div#footer {
+	width: 100%;
+	height: 30px;
+	text-align: center;
+	background-color: #2a2a29;
+}
+
+div#footer h5 {
+	padding-top: 4px;
+	color: white;
+	font-family: "calibri";
+}
+
+
+.searchbar {
+	/*background-color: antiquewhite;*/
+	margin-left: 30%;
+
+}
+
+.selector_input
+{
+	margin-top: 8px;
+	margin-left: 30%;
+	overflow-x: hidden;
+	word-wrap: break-word;
+	height: 32px;
+	width: 25%;
+}
+
+.profile {
+	margin: 10px;
+}
+
+.nav_option {
+	margin-left: 60px;
+}
